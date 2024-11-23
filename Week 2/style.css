@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+    padding: 20px;
+
+}
+.c1{
+    position: relative;
+    max-width: 700px;
+    background: white;
+    padding: 25px; 
+    width: 100%;
+    border-radius:8px ;
+    
+}
+.c1 header{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.c1 .form{
+    margin: top 30px; 
+
+}
+
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label
+{
+    color: rgb(50, 46, 46);
+}
+
+.form .input-box input
+{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline:none;
+    font-size: 1rem;
+    color:rgb(0, 0, 0) ;
+    border:1px solid rgb(101, 101, 101);
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-top: 9px;
+
+}
+.form .input-box select
+{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline:none;
+    font-size: 1rem;
+    color:rgb(9, 1, 1) ;
+    border:1px solid rgb(103, 102, 102);
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-top: 9px;
+
+}
+
+.bin
+{
+    position: relative;
+}
+.form :where(.bin , .bin1)
+{
+    padding-top: 15px;
+    align-items: center;
+    column-gap: 50px;
+
+}
+.bin1
+ {
+    column-gap: 5px;
+    cursor: pointer;
+ }
+
+ .c2
+{
+    position: relative;
+}
+
+.form :where(.c2 , .bin2)
+{
+    padding-top: 15px;
+    align-items: center;
+    column-gap: 50px; 
+}
+.bin2
+{
+    column-gap: 5px;
+}
+.input-box #b1
+{
+    color: rgb(133, 41, 41);
+}
+.bin3
+{
+    background-color: green;
+    color: black;
+    font-size: 5px;
+    padding:  5px ;
+    margin-top: 20px;
+    text-align: center;
+    border-radius:5px;
+}
